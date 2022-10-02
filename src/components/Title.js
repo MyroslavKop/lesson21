@@ -1,7 +1,7 @@
-const Title = ({name, type, color = "black"}) => {
+const Title = ({title, type, color = "black"}) => {
     const className = type === "bold" ? "bold" : "normal";
     return (
-        <h1 className={className} style ={{color}}>{name}</h1>
+        <h1 className={className} style ={{color}}>{title}</h1>
     )
 };
 
