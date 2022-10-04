@@ -1,11 +1,9 @@
 import Title from "./components/Title";
 
-
-
 function App() {
   return (<div>
-    <Title title="Products" type="bold"/>
-    <Title title="Employees" type="normal" color="blue"/>
+    <Title name="Products" type="bold"/>
+    <Title name="Products" type="normal"/>
   </div>);
 }
 

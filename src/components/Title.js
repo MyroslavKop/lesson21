@@ -1,8 +1,6 @@
-const Title = ({title, type, color = "black"}) => {
-    const className = type === "bold" ? "bold" : "normal";
+const Title = ({name, type}) => {
     return (
-        <h1 className={className} style ={{color}}>{title}</h1>
+        <h1 style ={{fontWeight: type}}>{name}</h1>
     )
 };
-
 export default Title
